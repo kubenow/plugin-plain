@@ -4,6 +4,7 @@ cluster_prefix = "your-cluster-prefix" # Your cluster prefix
 boot_image = "ubuntu-1604"
 image_dir = "kvm-image"
 bootstrap_script = "bootstrap/plain.sh"
+skip_image_import = "true"
 
 # Master configuration
 # obs: too small flavors might cause diffuse errors on your installation

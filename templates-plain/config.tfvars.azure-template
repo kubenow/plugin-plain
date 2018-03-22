@@ -4,6 +4,7 @@ cluster_prefix = "your-cluster-prefix" # Your cluster prefix
 location = "West Europe"  # Some location
 boot_image = "Canonical:UbuntuServer:16.04-LTS:latest"
 bootstrap_script = "bootstrap/plain.sh"
+skip_image_import = "true"
 
 # Credentials
 subscription_id = "your-subscription_id"

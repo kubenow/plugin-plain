@@ -5,6 +5,7 @@ aws_region = "eu-west-1" # Some region
 availability_zone = "eu-west-1a" # Some availability zone
 boot_image = "xenial"
 bootstrap_script = "bootstrap/plain.sh"
+skip_image_import = "true"
 
 # Credentials
 aws_access_key_id = "your-acces-key-id"
