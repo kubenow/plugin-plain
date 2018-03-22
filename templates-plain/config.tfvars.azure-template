@@ -2,9 +2,14 @@
 provider = "azure" # cloud provider for this config(don't change it)
 cluster_prefix = "your-cluster-prefix" # Your cluster prefix
 location = "West Europe"  # Some location
-boot_image = "Canonical:UbuntuServer:16.04-LTS:latest"
-bootstrap_script = "bootstrap/plain.sh"
+boot_image_public {
+    publisher = "Canonical"
+    offer     = "UbuntuServer"
+    sku       = "16.04-LTS"
+    version   = "latest"
+}
 skip_image_import = "true"
+bootstrap_script = "bootstrap/plain.sh"
 
 # Credentials
 subscription_id = "your-subscription_id"
