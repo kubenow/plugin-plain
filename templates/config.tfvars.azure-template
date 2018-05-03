@@ -9,7 +9,7 @@ boot_image_public {
     version   = "latest"
 }
 skip_image_import = "true"
-bootstrap_script = "plugins/plugin-plain/bootstrap/plain.sh"
+bootstrap_script = "plugins/KubeNow/plugin-plain/bootstrap/plain.sh"
 
 # Credentials
 subscription_id = "your-subscription_id"

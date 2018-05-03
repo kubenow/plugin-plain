@@ -2,7 +2,7 @@
 provider = "gce" # cloud provider for this config(don't change it)
 cluster_prefix = "your-cluster-prefix" # Your cluster prefix
 boot_image = "ubuntu-1604-lts"
-bootstrap_script = "plugins/plugin-plain/bootstrap/plain.sh"
+bootstrap_script = "plugins/KubeNow/plugin-plain/bootstrap/plain.sh"
 skip_image_import = "true"
 
 # Google credetials

@@ -4,7 +4,7 @@ cluster_prefix = "your-cluster-prefix" # Your cluster prefix
 aws_region = "eu-west-1" # Some region
 availability_zone = "eu-west-1a" # Some availability zone
 boot_image = "ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-201803*"
-bootstrap_script = "plugins/plugin-plain/bootstrap/plain.sh"
+bootstrap_script = "plugins/KubeNow/plugin-plain/bootstrap/plain.sh"
 skip_image_import = "true"
 
 # Credentials
